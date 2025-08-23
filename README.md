@@ -28,4 +28,13 @@ Make sure you have `rosdep` and required Gazebo + MoveIt 2 packages:
 ```bash
 sudo apt update
 sudo apt install ros-jazzy-gazebo-ros-pkgs ros-jazzy-moveit
-'''bash
+````
+
+## 📥 Clone the Workspace
+```bash
+mkdir -p ~/ur5_ws/src
+cd ~/ur5_ws/src
+git clone https://github.com/<your-username>/ur5_ws.git
+''''
+
+
