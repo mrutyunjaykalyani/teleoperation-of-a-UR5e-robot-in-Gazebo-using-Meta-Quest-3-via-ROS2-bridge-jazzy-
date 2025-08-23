@@ -27,14 +27,20 @@ Follow the official [ROS 2 installation guide](https://docs.ros.org/en/jazzy/Ins
 Make sure you have `rosdep` and required Gazebo + MoveIt 2 packages:  
 ```bash
 sudo apt update
-sudo apt install ros-jazzy-gazebo-ros-pkgs ros-jazzy-moveit
-````
+sudo apt install ros-jazzy-gazebo-ros-pkgs ros-jazzy-moveit*
+```
 
 ## 📥 Clone the Workspace
 ```bash
-mkdir -p ~/ur5_ws/src
-cd ~/ur5_ws/src
-git clone https://github.com/<your-username>/ur5_ws.git
-''''
+git clone https://github.com/nithishreddy1101/ur5_ws.git
+```
+## Build using colcon 
+```bash
+cd ~ur5_ws/
+colon build
+```
 
-
+## Run the project
+```bash
+source install/setup.bash
+ros2 launch ur5_moveit simulated_robot.launch.py
