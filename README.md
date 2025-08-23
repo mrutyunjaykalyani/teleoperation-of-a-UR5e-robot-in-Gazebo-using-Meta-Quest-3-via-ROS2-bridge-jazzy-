@@ -44,3 +44,8 @@ colon build
 ```bash
 source install/setup.bash
 ros2 launch ur5_moveit simulated_robot.launch.py
+```
+
+![UR5 Demo](src/ur5_ws.png)
+
+This repository contains a **ROS 2 Jazzy workspace** for simulating and controlling a **UR5 robotic arm** using **Gazebo Sim** and **MoveIt 2**.  
