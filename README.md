@@ -28,3 +28,4 @@ Make sure you have `rosdep` and required Gazebo + MoveIt 2 packages:
 ```bash
 sudo apt update
 sudo apt install ros-jazzy-gazebo-ros-pkgs ros-jazzy-moveit
+'''bash
