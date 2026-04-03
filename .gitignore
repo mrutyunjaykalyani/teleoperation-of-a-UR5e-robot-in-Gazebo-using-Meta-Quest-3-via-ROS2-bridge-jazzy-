@@ -1,0 +1,13 @@
+#ROS 2 build artifacts
+build/
+install/
+log/
+
+#Python-specific
+__pychache__/
+.pyc
+
+#Local IDE settings
+.vscode/
+
+
