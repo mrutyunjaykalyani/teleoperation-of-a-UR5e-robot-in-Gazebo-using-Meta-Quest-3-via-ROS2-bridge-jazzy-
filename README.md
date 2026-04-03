@@ -41,14 +41,14 @@ The control loop follows this data flow:
 
 🚀 Installation
 
-    Clone the repository:
-    Bash
+    #Clone the repository:
+    #Bash
 
     cd ~/ur5_ws/src
     git clone [https://github.com/yourusername/quest_bridge.git](https://github.com/yourusername/quest_bridge.git)
 
-    Build for Jazzy:
-    Bash
+    #Build for Jazzy:
+    #Bash
 
     cd ~/ur5_ws
     colcon build --packages-select quest_bridge
@@ -78,19 +78,19 @@ The control loop follows this data flow:
 
 🕹 Operation & Controls
 
-    Engage (Move): Hold the Grip Button on the Right Controller. The UR5e follows your hand while pressed.
+Engage (Move): Hold the Grip Button on the Right Controller. The UR5e follows your hand while pressed.
 
-    Clutching: Release the Grip button to reposition your hand without moving the robot (useful for reaching further).
+Clutching: Release the Grip button to reposition your hand without moving the robot (useful for reaching further).
 
-    Visuals: Use SteamVR Desktop View in the headset to see the Gazebo window.
+Visuals: Use SteamVR Desktop View in the headset to see the Gazebo window.
 
 ⚙️ Configuration
 
 In quest_teleop.py, you can tune the following:
 
-    Offsets: Adjust the + 0.4 values to change the robot's starting position relative to its base.
+Offsets: Adjust the + 0.4 values to change the robot's starting position relative to its base.
 
-    Topic Mapping: Ensure your topic matches your Servo configuration (default: /servo_node/pose_target_cmds).
+Topic Mapping: Ensure your topic matches your Servo configuration (default: /servo_node/pose_target_cmds).
 
 📝 License
 
