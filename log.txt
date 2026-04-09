@@ -1,0 +1,1108 @@
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.IncludeLaunchDescription'
+[INFO] [launch]: All log files can be found below /home/mk/.ros/log/2026-04-04-01-22-28-217839-MK-TUF-186546
+[INFO] [launch]: Default logging verbosity is set to DEBUG
+[DEBUG] [launch]: processing event: '<launch.events.include_launch_description.IncludeLaunchDescription object at 0x79389956e990>'
+[DEBUG] [launch]: processing event: '<launch.events.include_launch_description.IncludeLaunchDescription object at 0x79389956e990>' ✓ '<launch.event_handlers.on_include_launch_description.OnIncludeLaunchDescription object at 0x79389956ebd0>'
+[INFO] [robot_state_publisher-1]: process started with pid [186555]
+[DEBUG] [launch.launch_context]: emitting event: 'launch.events.process.ProcessStarted'
+[INFO] [gazebo-2]: process started with pid [186556]
+[DEBUG] [launch.launch_context]: emitting event: 'launch.events.process.ProcessStarted'
+[INFO] [create-3]: process started with pid [186557]
+[DEBUG] [launch.launch_context]: emitting event: 'launch.events.process.ProcessStarted'
+[INFO] [parameter_bridge-4]: process started with pid [186559]
+[DEBUG] [launch.launch_context]: emitting event: 'launch.events.process.ProcessStarted'
+[INFO] [spawner-5]: process started with pid [186560]
+[DEBUG] [launch.launch_context]: emitting event: 'launch.events.process.ProcessStarted'
+[INFO] [spawner-6]: process started with pid [186561]
+[DEBUG] [launch.launch_context]: emitting event: 'launch.events.process.ProcessStarted'
+[INFO] [spawner-7]: process started with pid [186562]
+[DEBUG] [launch.launch_context]: emitting event: 'launch.events.process.ProcessStarted'
+[INFO] [move_group-8]: process started with pid [186563]
+[DEBUG] [launch.launch_context]: emitting event: 'launch.events.process.ProcessStarted'
+[INFO] [rviz2-9]: process started with pid [186564]
+[DEBUG] [launch.launch_context]: emitting event: 'launch.events.process.ProcessStarted'
+[INFO] [quest_teleop-10]: process started with pid [186565]
+[DEBUG] [launch.launch_context]: emitting event: 'launch.events.process.ProcessStarted'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_started.ProcessStarted object at 0x793899330fb0>'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_started.ProcessStarted object at 0x793898e564b0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_started.ProcessStarted object at 0x793898e56d50>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_started.ProcessStarted object at 0x793898e568a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_started.ProcessStarted object at 0x793898e57740>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_started.ProcessStarted object at 0x793898e56db0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_started.ProcessStarted object at 0x793898e56960>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_started.ProcessStarted object at 0x793898e570b0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_started.ProcessStarted object at 0x793898e56810>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_started.ProcessStarted object at 0x793898e57140>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x7938990c2fc0>'
+[robot_state_publisher-1] [WARN] [1775258548.825874635] [rcl]: ROS_LOCALHOST_ONLY is deprecated but still honored if it is enabled. Use ROS_AUTOMATIC_DISCOVERY_RANGE and ROS_STATIC_PEERS instead.
+[robot_state_publisher-1] [WARN] [1775258548.825894438] [rcl]: 'localhost_only' is disabled, 'automatic_discovery_range' and 'static_peers' will be used.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389930deb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389930deb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f84e30>'
+[create-3] [WARN] [1775258548.833605344] [rcl]: ROS_LOCALHOST_ONLY is deprecated but still honored if it is enabled. Use ROS_AUTOMATIC_DISCOVERY_RANGE and ROS_STATIC_PEERS instead.
+[create-3] [WARN] [1775258548.833622067] [rcl]: 'localhost_only' is disabled, 'automatic_discovery_range' and 'static_peers' will be used.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389956eba0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389956eba0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f84e30>'
+[create-3] [INFO] [1775258548.849002719] [ros_gz_sim]: Requesting list of world names.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f7f7d0>'
+[parameter_bridge-4] [WARN] [1775258548.854198259] [rcl]: ROS_LOCALHOST_ONLY is deprecated but still honored if it is enabled. Use ROS_AUTOMATIC_DISCOVERY_RANGE and ROS_STATIC_PEERS instead.
+[parameter_bridge-4] [WARN] [1775258548.854218137] [rcl]: 'localhost_only' is disabled, 'automatic_discovery_range' and 'static_peers' will be used.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389956e7e0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389956e7e0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x7938990c2fc0>'
+[robot_state_publisher-1] [INFO] [1775258548.854753622] [robot_state_publisher]: Robot initialized
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [WARN] [1775258548.869830102] [rcl]: ROS_LOCALHOST_ONLY is deprecated but still honored if it is enabled. Use ROS_AUTOMATIC_DISCOVERY_RANGE and ROS_STATIC_PEERS instead.
+[move_group-8] [WARN] [1775258548.869855721] [rcl]: 'localhost_only' is disabled, 'automatic_discovery_range' and 'static_peers' will be used.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389956eba0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389956eba0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258548.906935684] [move_group.moveit.moveit.ros.rdf_loader]: Loaded robot model in 0 seconds
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389956eba0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389956eba0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258548.907043015] [move_group.moveit.moveit.core.robot_model]: Loading robot model 'ur5_robot'...
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5e7e0>'
+[rviz2-9] [WARN] [1775258548.933337089] [rcl]: ROS_LOCALHOST_ONLY is deprecated but still honored if it is enabled. Use ROS_AUTOMATIC_DISCOVERY_RANGE and ROS_STATIC_PEERS instead.
+[rviz2-9] [WARN] [1775258548.933358626] [rcl]: 'localhost_only' is disabled, 'automatic_discovery_range' and 'static_peers' will be used.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258548.950392702] [move_group.moveit.moveit.kinematics.kdl_kinematics_plugin]: Joint weights for group 'ur5_arm': 1 1 1 1 1 1
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f84e30>'
+[create-3] [INFO] [1775258549.051634363] [ros_gz_sim]: Waiting messages on topic [robot_description].
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389930deb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389930deb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f84e30>'
+[create-3] [INFO] [1775258549.063667394] [ros_gz_sim]: Entity creation successful.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5e7e0>'
+[rviz2-9] [INFO] [1775258549.079680763] [rviz2]: Stereo is NOT SUPPORTED
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5e7e0>'
+[rviz2-9] [INFO] [1775258549.079823638] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5e7e0>'
+[rviz2-9] [INFO] [1775258549.099287059] [rviz2]: Stereo is NOT SUPPORTED
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898fa5040>'
+[spawner-6] [WARN] [1775258549.102738210] [rcl]: ROS_LOCALHOST_ONLY is deprecated but still honored if it is enabled. Use ROS_AUTOMATIC_DISCOVERY_RANGE and ROS_STATIC_PEERS instead.
+[spawner-6] [WARN] [1775258549.102750497] [rcl]: 'localhost_only' is disabled, 'automatic_discovery_range' and 'static_peers' will be used.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.117916039] [move_group.moveit.moveit.ros.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.118153194] [move_group.moveit.moveit.ros.moveit_cpp]: Listening to 'joint_states' for joint states
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.119337556] [move_group.moveit.moveit.ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.120039093] [move_group.moveit.moveit.ros.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[move_group-8] [INFO] [1775258549.120069717] [move_group.moveit.moveit.ros.planning_scene_monitor]: Stopping existing planning scene publisher.
+[move_group-8] [INFO] [1775258549.120247702] [move_group.moveit.moveit.ros.planning_scene_monitor]: Stopped publishing maintained planning scene.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.120745087] [move_group.moveit.moveit.ros.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[move_group-8] [INFO] [1775258549.120864220] [move_group.moveit.moveit.ros.planning_scene_monitor]: Starting planning scene monitor
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389930deb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389930deb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.121520956] [move_group.moveit.moveit.ros.planning_scene_monitor]: Listening to '/planning_scene'
+[move_group-8] [INFO] [1775258549.121553512] [move_group.moveit.moveit.ros.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389956e7e0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389956e7e0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.123632989] [move_group.moveit.moveit.ros.planning_scene_monitor]: Listening to 'collision_object'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.124316025] [move_group.moveit.moveit.ros.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[move_group-8] [WARN] [1775258549.124594971] [move_group.moveit.moveit.ros.occupancy_map_monitor]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[move_group-8] [ERROR] [1775258549.124620915] [move_group.moveit.moveit.ros.occupancy_map_monitor]: No 3D sensor plugin(s) defined for octomap updates
+[INFO] [create-3]: process has finished cleanly [pid 186557]
+[DEBUG] [launch.launch_context]: emitting event: 'launch.events.process.ProcessExited'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_exited.ProcessExited object at 0x79389963b860>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_exited.ProcessExited object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_exit.OnProcessExit object at 0x793898f84470>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_exited.ProcessExited object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_exit.OnProcessExit object at 0x793898f84a10>'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389930deb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389930deb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898fa5130>'
+[spawner-5] [WARN] [1775258549.175130253] [rcl]: ROS_LOCALHOST_ONLY is deprecated but still honored if it is enabled. Use ROS_AUTOMATIC_DISCOVERY_RANGE and ROS_STATIC_PEERS instead.
+[spawner-5] [WARN] [1775258549.175142543] [rcl]: 'localhost_only' is disabled, 'automatic_discovery_range' and 'static_peers' will be used.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389956e3c0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389956e3c0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898fa5040>'
+[spawner-6] [INFO] [1775258549.179237222] [spawner_ur5_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10] [WARN] [1775258549.195741238] [rcl]: ROS_LOCALHOST_ONLY is deprecated but still honored if it is enabled. Use ROS_AUTOMATIC_DISCOVERY_RANGE and ROS_STATIC_PEERS instead.
+[quest_teleop-10] [WARN] [1775258549.195752132] [rcl]: 'localhost_only' is disabled, 'automatic_discovery_range' and 'static_peers' will be used.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389956e7e0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389956e7e0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5e7e0>'
+[rviz2-9] Warning: class_loader.impl: SEVERE WARNING!!! A namespace collision has occurred with plugin factory for class rviz_default_plugins::displays::InteractiveMarkerDisplay. New factory will OVERWRITE existing one. This situation occurs when libraries containing plugins are directly linked against an executable (the one running right now generating this message). Please separate plugins out into their own library or just don't link against the library and use either class_loader::ClassLoader/MultiLibraryClassLoader to open.
+[rviz2-9]          at line 321 in /opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5e7e0>'
+[rviz2-9] [WARN] [1775258549.200986303] [rcl.logging_rosout]: Publisher already registered for node name: 'rviz2'. If this is due to multiple nodes with the same name then all logs for the logger named 'rviz2' will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389956e3c0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389956e3c0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f68650>'
+[spawner-7] [WARN] [1775258549.251904348] [rcl]: ROS_LOCALHOST_ONLY is deprecated but still honored if it is enabled. Use ROS_AUTOMATIC_DISCOVERY_RANGE and ROS_STATIC_PEERS instead.
+[spawner-7] [WARN] [1775258549.251922294] [rcl]: 'localhost_only' is disabled, 'automatic_discovery_range' and 'static_peers' will be used.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStdout'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stdout.ProcessStdout object at 0x79389930deb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stdout.ProcessStdout object at 0x79389930deb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] [1;36m[Dbg] [gz.cc:166] [0m[1;36mSubscribing to [[0m[1;36m/gazebo/starting_world[0m[1;36m].[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [gz.cc:168] [0m[1;36mWaiting for a world to be set from the GUI...[0m[1;36m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mReceived world [[0m[1;32m/home/mk/ws_aic/Meta_Quest/ws_working_one/ur5_ws/install/ur5_description/share/ur5_description/worlds/gazebo_world.sdf[0m[1;32m] from the GUI.[0m[1;32m[0m
+[gazebo-2] [1;36m[Dbg] [gz.cc:172] [0m[1;36mUnsubscribing from [[0m[1;36m/gazebo/starting_world[0m[1;36m].[0m[1;36m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mGazebo Sim Server v[0m[1;32m8.10.0[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mLoading SDF world file[[0m[1;32m/home/mk/ws_aic/Meta_Quest/ws_working_one/ur5_ws/install/ur5_description/share/ur5_description/worlds/gazebo_world.sdf[0m[1;32m].[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mServing entity system service on [[0m[1;32m/[0m[1;32mentity/system/add[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;36m[Dbg] [Physics.cc:899] [0m[1;36mLoaded [[0m[1;36mgz::physics::bullet_featherstone::Plugin[0m[1;36m] from library [[0m[1;36m/opt/ros/jazzy/opt/gz_physics_vendor/lib/gz-physics-7/engine-plugins/libgz-physics-bullet-featherstone-plugin.so[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::Physics[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mCreate[0m[1;32m service on [[0m[1;32m/world/empty/create_multiple[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mCreate[0m[1;32m service on [[0m[1;32m/world/empty/create_multiple/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mRemove[0m[1;32m service on [[0m[1;32m/world/empty/remove[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mRemove[0m[1;32m service on [[0m[1;32m/world/empty/remove/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mPose[0m[1;32m service on [[0m[1;32m/world/empty/set_pose[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mPose[0m[1;32m service on [[0m[1;32m/world/empty/set_pose/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mPose[0m[1;32m service on [[0m[1;32m/world/empty/set_pose_vector[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mPose[0m[1;32m service on [[0m[1;32m/world/empty/set_pose_vector/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mLight configuration[0m[1;32m service on [[0m[1;32m/world/empty/light_config[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mLight configuration[0m[1;32m service on [[0m[1;32m/world/empty/light_config/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mPhysics[0m[1;32m service on [[0m[1;32m/world/empty/set_physics[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mPhysics[0m[1;32m service on [[0m[1;32m/world/empty/set_physics/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mSphericalCoordinates[0m[1;32m service on [[0m[1;32m/world/empty/set_spherical_coordinates[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mSphericalCoordinates[0m[1;32m service on [[0m[1;32m/world/empty/set_spherical_coordinates/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mEnable collision[0m[1;32m service on [[0m[1;32m/world/empty/enable_collision[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mEnable collision[0m[1;32m service on [[0m[1;32m/world/empty/enable_collision/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mDisable collision[0m[1;32m service on [[0m[1;32m/world/empty/disable_collision[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mDisable collision[0m[1;32m service on [[0m[1;32m/world/empty/disable_collision/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mMaterial[0m[1;32m service on [[0m[1;32m/world/empty/visual_config[0m[1;32m] (async)[0m[1;32m[0m
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389956e7e0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389956e7e0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.303474536] [move_group.moveit.moveit.ros.planning_pipeline]: Successfully loaded planner 'OMPL'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.304273113] [move_group]: Try loading adapter 'default_planning_request_adapters/ResolveConstraintFrames'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.304974991] [move_group]: Loaded adapter 'default_planning_request_adapters/ResolveConstraintFrames'
+[move_group-8] [INFO] [1775258549.304985070] [move_group]: Try loading adapter 'default_planning_request_adapters/ValidateWorkspaceBounds'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.305153677] [move_group]: Loaded adapter 'default_planning_request_adapters/ValidateWorkspaceBounds'
+[move_group-8] [INFO] [1775258549.305160300] [move_group]: Try loading adapter 'default_planning_request_adapters/CheckStartStateBounds'
+[move_group-8] [INFO] [1775258549.305177770] [move_group]: Loaded adapter 'default_planning_request_adapters/CheckStartStateBounds'
+[move_group-8] [INFO] [1775258549.305180027] [move_group]: Try loading adapter 'default_planning_request_adapters/CheckStartStateCollision'
+[move_group-8] [INFO] [1775258549.305187328] [move_group]: Loaded adapter 'default_planning_request_adapters/CheckStartStateCollision'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.305887084] [move_group]: Try loading adapter 'default_planning_response_adapters/AddTimeOptimalParameterization'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.307456925] [move_group]: Loaded adapter 'default_planning_response_adapters/AddTimeOptimalParameterization'
+[move_group-8] [INFO] [1775258549.307475476] [move_group]: Try loading adapter 'default_planning_response_adapters/ValidateSolution'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389956e7e0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389956e7e0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.309021871] [move_group]: Loaded adapter 'default_planning_response_adapters/ValidateSolution'
+[move_group-8] [INFO] [1775258549.309046258] [move_group]: Try loading adapter 'default_planning_response_adapters/DisplayMotionPath'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.309487096] [move_group]: Loaded adapter 'default_planning_response_adapters/DisplayMotionPath'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.311492580] [move_group.moveit.moveit.planners.pilz.joint_limits_aggregator]: Reading limits from namespace robot_description_planning
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389956eba0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389956eba0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.313939668] [move_group.moveit.moveit.planners.pilz.command_planner]: Available plugins: pilz_industrial_motion_planner/PlanningContextLoaderCIRC pilz_industrial_motion_planner/PlanningContextLoaderLIN pilz_industrial_motion_planner/PlanningContextLoaderPTP 
+[move_group-8] [INFO] [1775258549.313961104] [move_group.moveit.moveit.planners.pilz.command_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderCIRC
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.315142429] [move_group.moveit.moveit.planners.pilz.command_planner]: Registered Algorithm [CIRC]
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.315157260] [move_group.moveit.moveit.planners.pilz.command_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderLIN
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.315844606] [move_group.moveit.moveit.planners.pilz.command_planner]: Registered Algorithm [LIN]
+[move_group-8] [INFO] [1775258549.315853728] [move_group.moveit.moveit.planners.pilz.command_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderPTP
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389956eba0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389956eba0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.316479013] [move_group.moveit.moveit.planners.pilz.command_planner]: Registered Algorithm [PTP]
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389956eba0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389956eba0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.316490925] [move_group.moveit.moveit.ros.planning_pipeline]: Successfully loaded planner 'Pilz Industrial Motion Planner'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.317227604] [move_group]: Try loading adapter 'default_planning_request_adapters/ResolveConstraintFrames'
+[move_group-8] [INFO] [1775258549.317292141] [move_group]: Loaded adapter 'default_planning_request_adapters/ResolveConstraintFrames'
+[move_group-8] [INFO] [1775258549.317295419] [move_group]: Try loading adapter 'default_planning_request_adapters/ValidateWorkspaceBounds'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389956e7e0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389956e7e0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.317482365] [move_group]: Loaded adapter 'default_planning_request_adapters/ValidateWorkspaceBounds'
+[move_group-8] [INFO] [1775258549.317489394] [move_group]: Try loading adapter 'default_planning_request_adapters/CheckStartStateBounds'
+[move_group-8] [INFO] [1775258549.317503897] [move_group]: Loaded adapter 'default_planning_request_adapters/CheckStartStateBounds'
+[move_group-8] [INFO] [1775258549.317506946] [move_group]: Try loading adapter 'default_planning_request_adapters/CheckStartStateCollision'
+[move_group-8] [INFO] [1775258549.317515676] [move_group]: Loaded adapter 'default_planning_request_adapters/CheckStartStateCollision'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389930deb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389930deb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.318250065] [move_group]: Try loading adapter 'default_planning_response_adapters/ValidateSolution'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.318813933] [move_group]: Loaded adapter 'default_planning_response_adapters/ValidateSolution'
+[move_group-8] [INFO] [1775258549.318825714] [move_group]: Try loading adapter 'default_planning_response_adapters/DisplayMotionPath'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10] [INFO] [1775258549.318848376] [quest_teleop_node]: Quest 3 MoveIt Servo Bridge: Active.
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389956eba0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389956eba0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.319083004] [move_group]: Loaded adapter 'default_planning_response_adapters/DisplayMotionPath'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793898f84d10>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793898f84d10>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10] [INFO] [1775258549.319181181] [quest_teleop_node]: INSTRUCTIONS: Hold RIGHT GRIP to move the robot.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.321403408] [move_group.moveit.moveit.ros.planning_pipeline]: Successfully loaded planner 'STOMP'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.322125196] [move_group]: Try loading adapter 'default_planning_request_adapters/ResolveConstraintFrames'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.322191721] [move_group]: Loaded adapter 'default_planning_request_adapters/ResolveConstraintFrames'
+[move_group-8] [INFO] [1775258549.322194867] [move_group]: Try loading adapter 'default_planning_request_adapters/ValidateWorkspaceBounds'
+[move_group-8] [INFO] [1775258549.322309797] [move_group]: Loaded adapter 'default_planning_request_adapters/ValidateWorkspaceBounds'
+[move_group-8] [INFO] [1775258549.322314376] [move_group]: Try loading adapter 'default_planning_request_adapters/CheckStartStateBounds'
+[move_group-8] [INFO] [1775258549.322327235] [move_group]: Loaded adapter 'default_planning_request_adapters/CheckStartStateBounds'
+[move_group-8] [INFO] [1775258549.322329548] [move_group]: Try loading adapter 'default_planning_request_adapters/CheckStartStateCollision'
+[move_group-8] [INFO] [1775258549.322337236] [move_group]: Loaded adapter 'default_planning_request_adapters/CheckStartStateCollision'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.323004714] [move_group]: Try loading adapter 'default_planning_response_adapters/AddTimeOptimalParameterization'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389930deb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389930deb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.323251267] [move_group]: Loaded adapter 'default_planning_response_adapters/AddTimeOptimalParameterization'
+[move_group-8] [INFO] [1775258549.323256348] [move_group]: Try loading adapter 'default_planning_response_adapters/ValidateSolution'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793898f87230>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793898f87230>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.323552836] [move_group]: Loaded adapter 'default_planning_response_adapters/ValidateSolution'
+[move_group-8] [INFO] [1775258549.323562863] [move_group]: Try loading adapter 'default_planning_response_adapters/DisplayMotionPath'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.323799568] [move_group]: Loaded adapter 'default_planning_response_adapters/DisplayMotionPath'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] [1;33m[GUI] [Wrn] [Application.cc:908] [0m[1;33m[QT] file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Dialogs/DefaultFileDialog.qml:413:17: QML ToolButton: Binding loop detected for property "implicitHeight"[0m[1;33m[0m
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] [1;33m[GUI] [Wrn] [Application.cc:908] [0m[1;33m[QT] file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Dialogs/DefaultFileDialog.qml:309:21: QML Button: Binding loop detected for property "implicitHeight"[0m[1;33m[0m
+[gazebo-2] [1;33m[GUI] [Wrn] [Application.cc:908] [0m[1;33m[QT] file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Dialogs/DefaultFileDialog.qml:309:21: QML Button: Binding loop detected for property "implicitHeight"[0m[1;33m[0m
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] [1;33m[GUI] [Wrn] [Application.cc:908] [0m[1;33m[QT] file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Dialogs/DefaultFileDialog.qml:413:17: QML ToolButton: Binding loop detected for property "implicitHeight"[0m[1;33m[0m
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389930deb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389930deb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] [1;33m[GUI] [Wrn] [Application.cc:908] [0m[1;33m[QT] file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Dialogs/DefaultFileDialog.qml:309:21: QML Button: Binding loop detected for property "implicitHeight"[0m[1;33m[0m
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389930deb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389930deb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] [1;33m[GUI] [Wrn] [Application.cc:908] [0m[1;33m[QT] file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Dialogs/DefaultFileDialog.qml:309:21: QML Button: Binding loop detected for property "implicitHeight"[0m[1;33m[0m
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.352057475] [move_group.moveit.moveit.plugins.simple_controller_manager]: Added FollowJointTrajectory controller for ur5_arm_controller
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.352111427] [move_group.moveit.moveit.plugins.simple_controller_manager]: hand_controller will command a max effort of: 0
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.354069470] [move_group.moveit.moveit.plugins.simple_controller_manager]: Added GripperCommand controller for hand_controller
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.354224658] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-8] [INFO] [1775258549.354247022] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.354507869] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Trajectory execution is managing controllers
+[move_group-8] [INFO] [1775258549.354521566] [move_group]: MoveGroup debug mode is ON
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.367201644] [move_group.moveit.moveit.planners.pilz.move_group_sequence_action]: initialize move group sequence action
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389930deb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389930deb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.369101661] [move_group.moveit.moveit.planners.pilz.joint_limits_aggregator]: Reading limits from namespace robot_description_planning
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389930deb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389930deb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.369280271] [move_group.moveit.moveit.planners.pilz.joint_limits_aggregator]: Reading limits from namespace robot_description_planning
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStdout'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775258549.369927872] [move_group.moveit.moveit.ros.move_group.executable]: 
+[move_group-8] 
+[move_group-8] ********************************************************
+[move_group-8] * MoveGroup using: 
+[move_group-8] *     - apply_planning_scene_service
+[move_group-8] *     - clear_octomap_service
+[move_group-8] *     - get_group_urdf
+[move_group-8] *     - load_geometry_from_file
+[move_group-8] *     - CartesianPathService
+[move_group-8] *     - execute_trajectory_action
+[move_group-8] *     - get_planning_scene_service
+[move_group-8] *     - kinematics_service
+[move_group-8] *     - move_action
+[move_group-8] *     - motion_plan_service
+[move_group-8] *     - query_planners_service
+[move_group-8] *     - state_validation_service
+[move_group-8] *     - save_geometry_to_file
+[move_group-8] *     - SequenceAction
+[move_group-8] *     - SequenceService
+[move_group-8] ********************************************************
+[move_group-8] 
+[move_group-8] [INFO] [1775258549.369985892] [move_group.moveit.moveit.ros.move_group.context]: MoveGroup context using pipeline ompl
+[move_group-8] [INFO] [1775258549.369993353] [move_group.moveit.moveit.ros.move_group.context]: MoveGroup context initialization complete
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stdout.ProcessStdout object at 0x79389956e3c0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stdout.ProcessStdout object at 0x79389956e3c0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [96mLoading 'move_group/ApplyPlanningSceneService'...[0m
+[move_group-8] [96mLoading 'move_group/ClearOctomapService'...[0m
+[move_group-8] [96mLoading 'move_group/GetUrdfService'...[0m
+[move_group-8] [96mLoading 'move_group/LoadGeometryFromFileService'...[0m
+[move_group-8] [96mLoading 'move_group/MoveGroupCartesianPathService'...[0m
+[move_group-8] [96mLoading 'move_group/MoveGroupExecuteTrajectoryAction'...[0m
+[move_group-8] [96mLoading 'move_group/MoveGroupGetPlanningSceneService'...[0m
+[move_group-8] [96mLoading 'move_group/MoveGroupKinematicsService'...[0m
+[move_group-8] [96mLoading 'move_group/MoveGroupMoveAction'...[0m
+[move_group-8] [96mLoading 'move_group/MoveGroupPlanService'...[0m
+[move_group-8] [96mLoading 'move_group/MoveGroupQueryPlannersService'...[0m
+[move_group-8] [96mLoading 'move_group/MoveGroupStateValidationService'...[0m
+[move_group-8] [96mLoading 'move_group/SaveGeometryToFileService'...[0m
+[move_group-8] [96mLoading 'pilz_industrial_motion_planner/MoveGroupSequenceAction'...[0m
+[move_group-8] [96mLoading 'pilz_industrial_motion_planner/MoveGroupSequenceService'...[0m
+[move_group-8] 
+[move_group-8] [92mYou can start planning now![0m
+[move_group-8] 
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] [1;33m[GUI] [Wrn] [Application.cc:908] [0m[1;33m[QT] file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Dialogs/DefaultFileDialog.qml:413:17: QML ToolButton: Binding loop detected for property "implicitHeight"[0m[1;33m[0m
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] [1;33m[GUI] [Wrn] [Application.cc:908] [0m[1;33m[QT] file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Dialogs/DefaultFileDialog.qml:309:21: QML Button: Binding loop detected for property "implicitHeight"[0m[1;33m[0m
+[gazebo-2] [1;33m[GUI] [Wrn] [Application.cc:908] [0m[1;33m[QT] file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Dialogs/DefaultFileDialog.qml:309:21: QML Button: Binding loop detected for property "implicitHeight"[0m[1;33m[0m
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStdout'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stdout.ProcessStdout object at 0x79389930deb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stdout.ProcessStdout object at 0x79389930deb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] [1;32m[Msg] [0m[1;32mMaterial[0m[1;32m service on [[0m[1;32m/world/empty/visual_conf[1;32m[Msg] [0m[1;32mGazebo Sim GUI    v[0m[1;32m8.10.0[0m[1;32m[0m
+[gazebo-2] [1;36m[Dbg] [Gui.cc:275] [0m[1;36mWaiting for subscribers to [[0m[1;36m/gazebo/starting_world[0m[1;36m]...[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [Application.cc:96] [0m[1;36mInitializing application.[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [Application.cc:170] [0m[1;36mQt using OpenGL graphics interface[0m[1;36m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [Application.cc:657] [0m[1;36mCreate main window[0m[1;36m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [PathManager.cc:68] [0m[1;36mRequesting resource paths through [[0m[1;36m/gazebo/resource_paths/get[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [Gui.cc:355] [0m[1;36mGUI requesting list of world names. The server may be busy [0m[1;36mdownloading resources. Please be patient.[0m[1;36m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [PathManager.cc:57] [0m[1;36mReceived resource paths.[0m[1;36m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [Gui.cc:413] [0m[1;36mRequesting GUI from [[0m[1;36m/world/empty/gui/info[0m[1;36m]...[0m[1;36m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [GuiRunner.cc:149] [0m[1;36mRequesting initial state from [[0m[1;36m/world/empty/state[0m[1;36m]...[0m[1;36m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoading config [[0m[1;32m/home/mk/.gz/sim/8/gui.config[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mMinimalScene[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [MinimalScene.cc:802] [0m[1;36mCreating gz-rendering interface for OpenGL[0m[1;36m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [MinimalScene.cc:802] [0m[1;36mCreating gz-rendering interface for OpenGL[0m[1;36m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [MinimalScene.cc:986] [0m[1;36mCreating render thread interface for OpenGL[0m[1;36m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [MinimalScene.cc:802] [0m[1;36mCreating gz-rendering interface for OpenGL[0m[1;36m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [MinimalScene.cc:986] [0m[1;36mCreating render thread interface for OpenGL[0m[1;36m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32m3D View[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mMinimalScene[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_gui_vendor/lib/gz-gui-8/plugins/libMinimalScene.so[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mEntityContextMenuPlugin[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCurrently tracking topic on [[0m[1;32m/gui/currently_tracked[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mEntity Context Menu[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mEntityContextMenuPlugin[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_sim_vendor/lib/gz-sim-8/plugins/gui/libEntityContextMenuPlugin.so[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mGzSceneManager[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mScene Manager[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mGzSceneManager[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_sim_vendor/lib/gz-sim-8/plugins/gui/libGzSceneManager.so[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mInteractiveViewControl[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCamera view controller topic advertised on [[0m[1;32m/gui/camera/view_control[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCamera reference visual topic advertised on [[0m[1;32m/gui/camera/view_control/reference_visual[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCamera view control sensitivity advertised on [[0m[1;32m/gui/camera/view_control/sensitivity[0m[1;32m][0m[1;32m[0m
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f7f7d0>'
+[parameter_bridge-4] [INFO] [1775258549.876501457] [ros_gz_bridge]: Creating GZ->ROS Bridge: [clock (gz.msgs.Clock) -> clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f7f7d0>'
+[parameter_bridge-4] [INFO] [1775258549.878511726] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/camera (ignition.msgs.Image) -> /image_raw (sensor_msgs/msg/Image)] (Lazy 0)
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStdout'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stdout.ProcessStdout object at 0x79389963b860>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stdout.ProcessStdout object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mInteractive view control[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mInteractiveViewControl[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_gui_vendor/lib/gz-gui-8/plugins/libInteractiveViewControl.so[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mCameraTracking[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mCamera tracking[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mCameraTracking[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_gui_vendor/lib/gz-gui-8/plugins/libCameraTracking.so[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mMarkerManager[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mListening to stats on [[0m[1;32m/world/empty/stats[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mMarker Manager[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mMarkerManager[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_gui_vendor/lib/gz-gui-8/plugins/libMarkerManager.so[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mSelectEntities[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mSelect entities[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mSelectEntities[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_sim_vendor/lib/gz-sim-8/plugins/gui/libSelectEntities.so[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mSpawn[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mSpawn[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mSpawn[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_sim_vendor/lib/gz-sim-8/plugins/gui/libSpawn.so[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mVisualizationCapabilities[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mView as transparent service on [[0m[1;32m/gui/view/transparent[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mView as wireframes service on [[0m[1;32m/gui/view/wireframes[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mView center of mass service on [[0m[1;32m/gui/view/com[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mView inertia service on [[0m[1;32m/gui/view/inertia[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mView collisions service on [[0m[1;32m/gui/view/collisions[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mView joints service on [[0m[1;32m/gui/view/joints[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mView frames service on [[0m[1;32m/gui/view/frames[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mVisualization capabilities[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mVisualizationCapabilities[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_sim_vendor/lib/gz-sim-8/plugins/gui/libVisualizationCapabilities.so[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mWorldControl[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mUsing world control service [[0m[1;32m/world/empty/control[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mListening to stats on [[0m[1;32m/world/empty/stats[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [WorldControl.cc:237] [0m[1;36mUsing an event to share WorldControl msgs with the server[0m
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] [1;33m[GUI] [Wrn] [Application.cc:908] [0m[1;33m[QT] file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Dialogs/DefaultFileDialog.qml:413:17: QML ToolButton: Binding loop detected for property "implicitHeight"[0m[1;33m[0m
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] [1;33m[GUI] [Wrn] [Application.cc:908] [0m[1;33m[QT] file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Dialogs/DefaultFileDialog.qml:309:21: QML Button: Binding loop detected for property "implicitHeight"[0m[1;33m[0m
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] [1;33m[GUI] [Wrn] [Application.cc:908] [0m[1;33m[QT] file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Dialogs/DefaultFileDialog.qml:309:21: QML Button: Binding loop detected for property "implicitHeight"[0m[1;33m[0m
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] [1;33m[GUI] [Wrn] [Application.cc:908] [0m[1;33m[QT] file::/ComponentInspector/ComponentInspector.qml:251:3: QML Dialog: Binding loop detected for property "implicitHeight"[0m[1;33m[0m
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] [1;33m[GUI] [Wrn] [Application.cc:908] [0m[1;33m[QT] file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Dialogs/DefaultFileDialog.qml:413:17: QML ToolButton: Binding loop detected for property "implicitHeight"[0m[1;33m[0m
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] [1;33m[GUI] [Wrn] [Application.cc:908] [0m[1;33m[QT] file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Dialogs/DefaultFileDialog.qml:309:21: QML Button: Binding loop detected for property "implicitHeight"[0m[1;33m[0m
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] [1;33m[GUI] [Wrn] [Application.cc:908] [0m[1;33m[QT] file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Dialogs/DefaultFileDialog.qml:309:21: QML Button: Binding loop detected for property "implicitHeight"[0m[1;33m[0m
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStdout'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stdout.ProcessStdout object at 0x79389963b860>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stdout.ProcessStdout object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mWorld control[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mWorldControl[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_gui_vendor/lib/gz-gui-8/plugins/libWorldControl.so[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mWorldStats[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mListening to stats on [[0m[1;32m/world/empty/stats[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mWorld stats[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mWorldStats[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_gui_vendor/lib/gz-gui-8/plugins/libWorldStats.so[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mShapes[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mShapes[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mShapes[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_sim_vendor/lib/gz-sim-8/plugins/gui/libShapes.so[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mLights[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mLights[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mLights[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_sim_vendor/lib/gz-sim-8/plugins/gui/libLights.so[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mTransformControl[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mTransform control[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mTransformControl[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_sim_vendor/lib/gz-sim-8/plugins/gui/libTransformControl.so[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mScreenshot[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mScreenshot service on [[0m[1;32m/gui/screenshot[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mScreenshot[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mScreenshot[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_gui_vendor/lib/gz-gui-8/plugins/libScreenshot.so[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mCopyPaste[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mCopy/Paste[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mCopyPaste[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_sim_vendor/lib/gz-sim-8/plugins/gui/libCopyPaste.so[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mComponentInspector[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mComponent inspector[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mComponentInspector[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_sim_vendor/lib/gz-sim-8/plugins/gui/libComponentInspector.so[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mEntityTree[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCurrently tracking topic on [[0m[1;32m/gui/currently_tracked[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mEntity tree[0m[1;32m] to main window[0m[1;32m[0m
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] [1;33m[GUI] [Wrn] [Application.cc:908] [0m[1;33m[QT] file::/WorldStats/WorldStats.qml:53:3: QML RowLayout: Binding loop detected for property "x"[0m[1;33m[0m
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] libEGL warning: pci id for fd 98: 10de:25a2, driver (null)
+[gazebo-2] 
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] pci id for fd 99: 10de:25a2, driver (null)
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] pci id for fd 100: 10de:25a2, driver (null)
+[gazebo-2] libEGL warning: egl: failed to create dri2 screen
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] libEGL warning: pci id for fd 98: 10de:25a2, driver (null)
+[gazebo-2] 
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] pci id for fd 99: 10de:25a2, driver (null)
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] pci id for fd 100: 10de:25a2, driver (null)
+[gazebo-2] libEGL warning: egl: failed to create dri2 screen
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] libEGL warning: pci id for fd 98: 10de:25a2, driver (null)
+[gazebo-2] 
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898fa5040>'
+[spawner-6] [WARN] [1775258550.931662337] [spawner_ur5_arm_controller]: Controller already loaded, skipping load_controller
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898fa5040>'
+[spawner-6] [ERROR] [1775258550.933453322] [spawner_ur5_arm_controller]: Failed to configure controller
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] [1;33m[Wrn] [SimulationRunner.cc:721] [0m[1;33mFound additional publishers on /stats,[0m[1;33m using namespaced stats topic only[0m[1;33m[0m
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] [1;33m[Wrn] [SimulationRunner.cc:755] [0m[1;33mFound additional publishers on /clock,[0m[1;33m using namespaced clock topic only[0m[1;33m[0m
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStdout'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stdout.ProcessStdout object at 0x793899ee5430>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stdout.ProcessStdout object at 0x793899ee5430>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaig/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mMaterial[0m[1;32m service on [[0m[1;32m/world/empty/wheel_slip[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mMaterial[0m[1;32m service on [[0m[1;32m/world/empty/wheel_slip/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-2] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::UserCommands[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::SceneBroadcaster[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::Contact[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [Sensors.cc:697] [0m[1;36mConfiguring Sensors system[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [Sensors.cc:557] [0m[1;36mSensorsPrivate::Run[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::Sensors[0m[1;36m] for entity [[0m[1;36mgz::sim::systems::Sensors[Dbg] [Sensors.cc:532] [0m[1;36mSensorsPrivate::RenderThread started[0m[1;36m[0m
+[gazebo-2] [1;36m1[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [Sensors.cc:337] [0m[1;36mWaiting for init[0m[1;36m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mLoaded level [[0m[1;32mdefault[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mServing world controls on [[0m[1;32m/world/empty[0m[1;32m/control], [[0m[1;32m/world/empty[0m[1;32m/control/state] and [[0m[1;32m/world/empty[0m[1;32m/playback/control][0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mServing GUI information on [[0m[1;32m/world/empty[0m[1;32m/[0m[1;32mgui/info[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mWorld [[0m[1;32mempty[0m[1;32m] initialized with [[0m[1;32m1ms[0m[1;32m] physics profile.[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mServing world SDF generation service on [[0m[1;32m/world/empty[0m[1;32m/[0m[1;32mgenerate_world_sdf[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mServing world names on [[0m[1;32m/gazebo/worlds[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mResource path add service on [[0m[1;32m/gazebo/resource_paths/add[0m[1;32m].[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mResource path get service on [[0m[1;32m/gazebo/resource_paths/get[0m[1;32m].[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mResource path resolve service on [[0m[1;32m/gazebo/resource_paths/resolve[0m[1;32m].[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mResource paths published on [[0m[1;32m/gazebo/resource_paths[0m[1;32m].[0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mServer control service on [[0m[1;32m/server_control[0m[1;32m].[0m[1;32m[0m
+[gazebo-2] [1;36m[Dbg] [SimulationRunner.cc:723] [0m[1;36mPublishers [Address, Message Type]:[0m
+[gazebo-2] [1;36m[Dbg] [SimulationRunner.cc:728] [0m[1;36m  [0m[1;36mtcp://172.17.0.1:36833[0m[1;36m, [0m[1;36mgz.msgs.WorldStatistics[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SimulationRunner.cc:757] [0m[1;36mPublishers [Address, Message Type]:[0m
+[gazebo-2] [1;36m[Dbg] [SimulationRunner.cc:762] [0m[1;36m  [0m[1;36mtcp://172.17.0.1:36833[0m[1;36m, [0m[1;36mgz.msgs.Clock[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SimulationRunner.cc:533] [0m[1;36mCreating PostUpdate worker threads: [0m[1;36m4[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SimulationRunner.cc:544] [0m[1;36mCreating postupdate worker thread ([0m[1;36m0[0m[1;36m)[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SimulationRunner.cc:544] [0m[1;36mCreating postupdate worker thread ([0m[1;36m1[0m[1;36m)[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SimulationRunner.cc:544] [0m[1;36mCreating postupdate worker thread ([0m[1;36m2[0m[1;36m)[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [Physics.cc:1079] [0m[1;36mAttempting to set physics options, but the [0m[1;36mphyiscs engine doesn't support feature [0m[1;36m[CollisionPairMaxContacts]. [0m[1;36mOptions will be ignored.[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [Sensors.cc:953] [0m[1;36mInitialization needed[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [Sensors.cc:349] [0m[1;36mInitializing render context[0m[1;36m[0m
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f68650>'
+[spawner-7] [INFO] [1775258551.031414126] [spawner_hand_controller]: waiting for service /controller_manager/list_controllers to become available...
+[ERROR] [spawner-6]: process has died [pid 186561, exit code 1, cmd '/opt/ros/jazzy/lib/controller_manager/spawner ur5_arm_controller --controller-manager /controller_manager --ros-args'].
+[DEBUG] [launch.launch_context]: emitting event: 'launch.events.process.ProcessExited'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_exited.ProcessExited object at 0x7938997e6ba0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_exited.ProcessExited object at 0x7938997e6ba0>' ✓ '<launch.event_handlers.on_process_exit.OnProcessExit object at 0x793898fa5fa0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_exited.ProcessExited object at 0x7938997e6ba0>' ✓ '<launch.event_handlers.on_process_exit.OnProcessExit object at 0x793898fa6ab0>'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] libEGL warning: pci id for fd 61: 10de:25a2, driver (null)
+[gazebo-2] 
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] pci id for fd 62: 10de:25a2, driver (null)
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389930deb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389930deb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] pci id for fd 63: 10de:25a2, driver (null)
+[gazebo-2] libEGL warning: egl: failed to create dri2 screen
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] libEGL warning: pci id for fd 61: 10de:25a2, driver (null)
+[gazebo-2] 
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] pci id for fd 62: 10de:25a2, driver (null)
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389930deb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389930deb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] pci id for fd 63: 10de:25a2, driver (null)
+[gazebo-2] libEGL warning: egl: failed to create dri2 screen
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] libEGL warning: pci id for fd 61: 10de:25a2, driver (null)
+[gazebo-2] 
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] [1;33m[Wrn] [Ogre2Camera.cc:423] [0m[1;33mOgre2Camera::SetVisibilityMask: Mask bits [0m[1;33mc0000000[0m[1;33m are set but will be ignored as they conflict with the [0m[1;33mreserved bits used internally by the ogre2 backend.[0m[1;33m[0m
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389930deb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389930deb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5e7e0>'
+[rviz2-9] [ERROR] [1775258552.234911682] [rviz2.moveit.ros.motion_planning_frame]: Action server: /recognize_objects not available
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5e7e0>'
+[rviz2-9] [INFO] [1775258552.270539948] [rviz2.moveit.ros.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5e7e0>'
+[rviz2-9] [INFO] [1775258552.334316263] [rviz2.moveit.ros.rdf_loader]: Loaded robot model in 0.00953201 seconds
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5e7e0>'
+[rviz2-9] [INFO] [1775258552.334461488] [rviz2.moveit.core.robot_model]: Loading robot model 'ur5_robot'...
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5e7e0>'
+[rviz2-9] [INFO] [1775258552.458459304] [rviz2.moveit.kinematics.kdl_kinematics_plugin]: Joint weights for group 'ur5_arm': 1 1 1 1 1 1
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5e7e0>'
+[rviz2-9] [INFO] [1775258552.642145933] [rviz2.moveit.ros.planning_scene_monitor]: Starting planning scene monitor
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5e7e0>'
+[rviz2-9] [INFO] [1775258552.643775075] [rviz2.moveit.ros.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5e7e0>'
+[rviz2-9] [INFO] [1775258553.041130779] [interactive_marker_display_106148114675232]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5e7e0>'
+[rviz2-9] [INFO] [1775258553.046954671] [rviz2.moveit.ros.robot_interaction]: No active joints or end effectors found for group 'hand'. Make sure that kinematics.yaml is loaded in this node's namespace.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5e7e0>'
+[rviz2-9] [INFO] [1775258553.048691711] [rviz2.moveit.ros.robot_interaction]: No active joints or end effectors found for group 'hand'. Make sure that kinematics.yaml is loaded in this node's namespace.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5e7e0>'
+[rviz2-9] [INFO] [1775258553.061523521] [rviz2.moveit.ros.motion_planning_frame]: group hand
+[rviz2-9] [INFO] [1775258553.061627916] [rviz2.moveit.ros.motion_planning_frame]: Constructing new MoveGroup connection for group 'hand' in namespace ''
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5e7e0>'
+[rviz2-9] [INFO] [1775258553.088641907] [interactive_marker_display_106148114675232]: Sending request for interactive markers
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5e7e0>'
+[rviz2-9] [INFO] [1775258553.106536547] [rviz2.moveit.ros.move_group_interface]: Ready to take commands for planning group hand.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5e7e0>'
+[rviz2-9] [INFO] [1775258553.107403419] [rviz2.moveit.ros.motion_planning_frame]: group hand
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5e7e0>'
+[rviz2-9] [INFO] [1775258553.120278642] [interactive_marker_display_106148114675232]: Service response received for initialization
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330fb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f68650>'
+[spawner-7] [WARN] [1775258554.037845543] [spawner_hand_controller]: Controller already loaded, skipping load_controller
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f68650>'
+[spawner-7] [ERROR] [1775258554.042625189] [spawner_hand_controller]: Failed to configure controller
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898fa5130>'
+[spawner-5] [INFO] [1775258554.229017262] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[ERROR] [spawner-7]: process has died [pid 186562, exit code 1, cmd '/opt/ros/jazzy/lib/controller_manager/spawner hand_controller --controller-manager /controller_manager --ros-args'].
+[DEBUG] [launch.launch_context]: emitting event: 'launch.events.process.ProcessExited'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_exited.ProcessExited object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_exited.ProcessExited object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_exit.OnProcessExit object at 0x793898f68800>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_exited.ProcessExited object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_exit.OnProcessExit object at 0x793898f68740>'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389963b860>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898fa5130>'
+[spawner-5] [WARN] [1775258556.983790289] [spawner_joint_state_broadcaster]: Controller already loaded, skipping load_controller
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898fa5130>'
+[spawner-5] [ERROR] [1775258556.989440504] [spawner_joint_state_broadcaster]: Failed to configure controller
+[ERROR] [spawner-5]: process has died [pid 186560, exit code 1, cmd '/opt/ros/jazzy/lib/controller_manager/spawner joint_state_broadcaster --controller-manager /controller_manager --ros-args'].
+[DEBUG] [launch.launch_context]: emitting event: 'launch.events.process.ProcessExited'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_exited.ProcessExited object at 0x793898fa5eb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_exited.ProcessExited object at 0x793898fa5eb0>' ✓ '<launch.event_handlers.on_process_exit.OnProcessExit object at 0x793898fa5760>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_exited.ProcessExited object at 0x793898fa5eb0>' ✓ '<launch.event_handlers.on_process_exit.OnProcessExit object at 0x793898fa6180>'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10] [INFO] [1775258757.349215957] [quest_teleop_node]: Teleop Engaged: Origin set at current hand pose.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10] [INFO] [1775258796.979649128] [quest_teleop_node]: Teleop Engaged: Origin set at current hand pose.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10] [INFO] [1775258797.148637206] [quest_teleop_node]: Teleop Engaged: Origin set at current hand pose.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10] [INFO] [1775258803.139983672] [quest_teleop_node]: Teleop Engaged: Origin set at current hand pose.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10] [INFO] [1775258803.714761058] [quest_teleop_node]: Teleop Engaged: Origin set at current hand pose.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10] [INFO] [1775258809.556346164] [quest_teleop_node]: Teleop Engaged: Origin set at current hand pose.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10] [INFO] [1775258815.873613042] [quest_teleop_node]: Teleop Engaged: Origin set at current hand pose.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10] [INFO] [1775258816.958187278] [quest_teleop_node]: Teleop Engaged: Origin set at current hand pose.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10] [INFO] [1775258817.484047311] [quest_teleop_node]: Teleop Engaged: Origin set at current hand pose.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10] [INFO] [1775258817.927543789] [quest_teleop_node]: Teleop Engaged: Origin set at current hand pose.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10] [INFO] [1775258818.652013462] [quest_teleop_node]: Teleop Engaged: Origin set at current hand pose.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10] [INFO] [1775258819.211074413] [quest_teleop_node]: Teleop Engaged: Origin set at current hand pose.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10] [INFO] [1775258824.230680002] [quest_teleop_node]: Teleop Engaged: Origin set at current hand pose.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10] [INFO] [1775258843.290115271] [quest_teleop_node]: Teleop Engaged: Origin set at current hand pose.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10] [INFO] [1775258848.718620313] [quest_teleop_node]: Teleop Engaged: Origin set at current hand pose.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10] [INFO] [1775258851.993083603] [quest_teleop_node]: Teleop Engaged: Origin set at current hand pose.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10] [INFO] [1775258855.371770294] [quest_teleop_node]: Teleop Engaged: Origin set at current hand pose.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10] [INFO] [1775258857.733172372] [quest_teleop_node]: Teleop Engaged: Origin set at current hand pose.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10] [INFO] [1775258918.184302318] [quest_teleop_node]: Teleop Engaged: Origin set at current hand pose.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10] [INFO] [1775258929.000973245] [quest_teleop_node]: Teleop Engaged: Origin set at current hand pose.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10] [INFO] [1775258946.871792163] [quest_teleop_node]: Teleop Engaged: Origin set at current hand pose.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10] [INFO] [1775258948.210711607] [quest_teleop_node]: Teleop Engaged: Origin set at current hand pose.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10] [INFO] [1775258948.929119316] [quest_teleop_node]: Teleop Engaged: Origin set at current hand pose.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10] [INFO] [1775258949.629424695] [quest_teleop_node]: Teleop Engaged: Origin set at current hand pose.
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10] [INFO] [1775258950.607110868] [quest_teleop_node]: Teleop Engaged: Origin set at current hand pose.
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.Shutdown'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.shutdown.Shutdown object at 0x7938990d0ad0>'
+[DEBUG] [launch]: processing event: '<launch.events.shutdown.Shutdown object at 0x7938990d0ad0>' ✓ '<launch.event_handlers.on_shutdown.OnShutdown object at 0x793898e57dd0>'
+[DEBUG] [launch]: processing event: '<launch.events.shutdown.Shutdown object at 0x7938990d0ad0>' ✓ '<launch.event_handlers.on_shutdown.OnShutdown object at 0x793898e5e660>'
+[DEBUG] [launch]: processing event: '<launch.events.shutdown.Shutdown object at 0x7938990d0ad0>' ✓ '<launch.event_handlers.on_shutdown.OnShutdown object at 0x793898e5f830>'
+[DEBUG] [launch]: processing event: '<launch.events.shutdown.Shutdown object at 0x7938990d0ad0>' ✓ '<launch.event_handlers.on_shutdown.OnShutdown object at 0x793898f68680>'
+[DEBUG] [launch]: processing event: '<launch.events.shutdown.Shutdown object at 0x7938990d0ad0>' ✓ '<launch.event_handlers.on_shutdown.OnShutdown object at 0x793898fa4980>'
+[DEBUG] [launch]: processing event: '<launch.events.shutdown.Shutdown object at 0x7938990d0ad0>' ✓ '<launch.event_handlers.on_shutdown.OnShutdown object at 0x793898fa6990>'
+[DEBUG] [launch]: processing event: '<launch.events.shutdown.Shutdown object at 0x7938990d0ad0>' ✓ '<launch.event_handlers.on_shutdown.OnShutdown object at 0x793898f7dac0>'
+[DEBUG] [launch]: processing event: '<launch.events.shutdown.Shutdown object at 0x7938990d0ad0>' ✓ '<launch.event_handlers.on_shutdown.OnShutdown object at 0x793898f86d50>'
+[DEBUG] [launch]: processing event: '<launch.events.shutdown.Shutdown object at 0x7938990d0ad0>' ✓ '<launch.event_handlers.on_shutdown.OnShutdown object at 0x793898f86cf0>'
+[DEBUG] [launch]: processing event: '<launch.events.shutdown.Shutdown object at 0x7938990d0ad0>' ✓ '<launch.event_handlers.on_shutdown.OnShutdown object at 0x7938990c2f90>'
+[DEBUG] [launch]: processing event: '<launch.events.shutdown.Shutdown object at 0x7938990d0ad0>' ✓ '<launch.event_handlers.on_shutdown.OnShutdown object at 0x793899619190>'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x7938990c2fc0>'
+[robot_state_publisher-1] [INFO] [1775260173.325688248] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [robot_state_publisher-1]: process has finished cleanly [pid 186555]
+[DEBUG] [launch.launch_context]: emitting event: 'launch.events.process.ProcessExited'
+[INFO] [parameter_bridge-4]: process has finished cleanly [pid 186559]
+[DEBUG] [launch.launch_context]: emitting event: 'launch.events.process.ProcessExited'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330ec0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899330ec0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f7f7d0>'
+[parameter_bridge-4] [INFO] [1775260173.344392531] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990d3d70>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990d3d70>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5e7e0>'
+[rviz2-9] [INFO] [1775260173.344405714] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[rviz2-9] [WARN] [1775260173.359869955] [interactive_marker_display_106148114675232]: Server not available while running, resetting
+[rviz2-9] 
+[rviz2-9] >>> [rcutils|error_handling.c:108] rcutils_set_error_state()
+[rviz2-9] This error state is being overwritten:
+[rviz2-9] 
+[rviz2-9]   'rcl node's context is invalid, at ./src/rcl/node.c:404'
+[rviz2-9] 
+[rviz2-9] with this new error message:
+[rviz2-9] 
+[rviz2-9]   'publisher's context is invalid, at ./src/rcl/publisher.c:423'
+[rviz2-9] 
+[rviz2-9] rcutils_reset_error() should be called after error handling to avoid this.
+[rviz2-9] <<<
+[rviz2-9] Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:423
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793898fa6b40>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793898fa6b40>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] [INFO] [1775260173.344724281] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389a179c70>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389a179c70>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10] [INFO] [1775260173.383663491] [quest_teleop_node]: Shutting down teleop...
+[quest_teleop-10] Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:423
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793898f87dd0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793898f87dd0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5e7e0>'
+[rviz2-9] [INFO] [1775260173.486258345] [rviz2.moveit.ros.planning_scene_monitor]: Stopping planning scene monitor
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899070290>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899070290>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] Stack trace (most recent call last):
+[move_group-8] #6    Object "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2", at 0xffffffffffffffff, in 
+[DEBUG] [launch]: processing event: '<launch.events.process.process_exited.ProcessExited object at 0x79389930deb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_exited.ProcessExited object at 0x79389930deb0>' ✓ '<launch.event_handlers.on_process_exit.OnProcessExit object at 0x79389900d580>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_exited.ProcessExited object at 0x79389930deb0>' ✓ '<launch.event_handlers.on_process_exit.OnProcessExit object at 0x7938990c2de0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_exited.ProcessExited object at 0x7938996d74d0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_exited.ProcessExited object at 0x7938996d74d0>' ✓ '<launch.event_handlers.on_process_exit.OnProcessExit object at 0x793898f7e7e0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_exited.ProcessExited object at 0x7938996d74d0>' ✓ '<launch.event_handlers.on_process_exit.OnProcessExit object at 0x793898f7f320>'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990d3d70>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990d3d70>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] #5    Object "/opt/ros/jazzy/lib/moveit_ros_move_group/move_group", at 0x584ab1862a44, in _start
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389930deb0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389930deb0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] #4    Source "../csu/libc-start.c", line 360, in __libc_start_main_impl [0x735b46e2a28a]
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x793899ee5430>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] #3    Source "../sysdeps/nptl/libc_start_call_main.h", line 58, in __libc_start_call_main [0x735b46e2a1c9]
+[move_group-8] #2    Object "/opt/ros/jazzy/lib/moveit_ros_move_group/move_group", at 0x584ab1861517, in main
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938996d74d0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938996d74d0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e5f980>'
+[move_group-8] #1    Object "/opt/ros/jazzy/lib/librclcpp.so", at 0x735b47707d69, in rclcpp::Executor::~Executor()
+[move_group-8] #0    Object "/opt/ros/jazzy/lib/librclcpp.so", at 0x735b4770284e, in 
+[move_group-8] Segmentation fault (Address not mapped to object [0x735b04786170])
+[INFO] [rviz2-9]: process has finished cleanly [pid 186564]
+[DEBUG] [launch.launch_context]: emitting event: 'launch.events.process.ProcessExited'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_exited.ProcessExited object at 0x79389939e870>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_exited.ProcessExited object at 0x79389939e870>' ✓ '<launch.event_handlers.on_process_exit.OnProcessExit object at 0x793898e5e750>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_exited.ProcessExited object at 0x79389939e870>' ✓ '<launch.event_handlers.on_process_exit.OnProcessExit object at 0x793898e5e7b0>'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389a179c70>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389a179c70>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10] Traceback (most recent call last):
+[quest_teleop-10]   File "/home/mk/ws_aic/Meta_Quest/ws_working_one/ur5_ws/install/quest_bridge/lib/quest_bridge/quest_teleop", line 33, in <module>
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStderr'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389a179c70>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x79389a179c70>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10]     sys.exit(load_entry_point('quest-bridge==0.0.0', 'console_scripts', 'quest_teleop')())
+[quest_teleop-10]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[quest_teleop-10]   File "/home/mk/ws_aic/Meta_Quest/ws_working_one/ur5_ws/install/quest_bridge/lib/python3.12/site-packages/quest_bridge/quest_teleop.py", line 119, in main
+[quest_teleop-10]     rclpy.shutdown()
+[quest_teleop-10]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 134, in shutdown
+[quest_teleop-10]     _shutdown(context=context)
+[quest_teleop-10]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/utilities.py", line 82, in shutdown
+[quest_teleop-10]     context.shutdown()
+[quest_teleop-10]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/context.py", line 129, in shutdown
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990d3d70>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stderr.ProcessStderr object at 0x7938990d3d70>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898e57f50>'
+[quest_teleop-10]     self.__context.shutdown()
+[quest_teleop-10] rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:333
+[ERROR] [quest_teleop-10]: process has died [pid 186565, exit code 1, cmd '/home/mk/ws_aic/Meta_Quest/ws_working_one/ur5_ws/install/quest_bridge/lib/quest_bridge/quest_teleop --ros-args -r __node:=quest_teleop_node --params-file /tmp/launch_params_g0dufjo6'].
+[DEBUG] [launch.launch_context]: emitting event: 'launch.events.process.ProcessExited'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_exited.ProcessExited object at 0x7938995bf500>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_exited.ProcessExited object at 0x7938995bf500>' ✓ '<launch.event_handlers.on_process_exit.OnProcessExit object at 0x793898e56c60>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_exited.ProcessExited object at 0x7938995bf500>' ✓ '<launch.event_handlers.on_process_exit.OnProcessExit object at 0x793898e57bf0>'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStdout'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stdout.ProcessStdout object at 0x79389be03350>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stdout.ProcessStdout object at 0x79389be03350>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] [1;32ded plugin [[0m[1;32mEntityTree[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_sim_vendor/lib/gz-sim-8/plugins/gui/libEntityTree.so[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [Application.cc:398] [0m[1;36mLoading window config[0m[1;36m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mUsing server control service [[0m[1;32m/server_control[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [Application.cc:671] [0m[1;36mApplying config[0m[1;36m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [MinimalScene.cc:802] [0m[1;36mCreating gz-rendering interface for OpenGL[0m[1;36m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [MinimalScene.cc:986] [0m[1;36mCreating render thread interface for OpenGL[0m[1;36m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoading plugin [[0m[1;32mgz-rendering-ogre2[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [MinimalScene.cc:749] [0m[1;36mCreate scene [[0m[1;36mscene[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [MinimalScene.cc:1037] [0m[1;36mCreating texture node render interface for OpenGL[0m[1;36m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [TransformControl.cc:453] [0m[1;36mTransformControl plugin is using camera [[0m[1;36mscene::Camera(65527)[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [Spawn.cc:308] [0m[1;36mSpawn plugin is using camera [[0m[1;36mscene::Camera(65527)[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [SelectEntities.cc:452] [0m[1;36mSelectEntities plugin is using camera [[0m[1;36mscene::Camera(65527)[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [MarkerManager.cc:169] [0m[1;36mAdvertise [0m[1;36m/marker[0m[1;36m/list service.[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [MarkerManager.cc:179] [0m[1;36mAdvertise [0m[1;36m/marker[0m[1;36m/list.[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [MarkerManager.cc:189] [0m[1;36mAdvertise [0m[1;36m/marker[0m[1;36m_array.[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [CameraTracking.cc:205] [0m[1;36mCameraTrackingPrivate plugin is moving camera [[0m[1;36mscene::Camera(65527)[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mMove to service on [[0m[1;32m/gui/move_to[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mFollow service on [[0m[1;32m/gui/follow[0m[1;32m] (deprecated)[0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mTracking topic on [[0m[1;32m/gui/track[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mTracking status topic on [[0m[1;32m/gui/currently_tracked[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mMove to pose service on [[0m[1;32m/gui/move_to/pose[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCamera pose topic advertised on [[0m[1;32m/gui/camera/pose[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mFollow offset service on [[0m[1;32m/gui/follow/offset[0m[1;32m] (deprecated)[0m[1;32m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [InteractiveViewControl.cc:176] [0m[1;36mInteractiveViewControl plugin is moving camera [[0m[1;36mscene::Camera(65527)[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [EntityContextMenuPlugin.cc:79] [0m[1;36mEntity context menu plugin is using camera [[0m[1;36mscene::Camera(65527)[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [SignalHandler.cc:142] [0m[1;36mReceived signal[[0m[1;36m2[0m[1;36m].[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [Gui.cc:535] [0m[1;36mShutting down gz-sim-gui[0m[1;36m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [Application.cc:237] [0m[1;36mTerminating application.[0m[1;36m[0m
+[gazebo-2] [1;36m[GUI] [Dbg] [MinimalScene.cc:841] [0m[1;36mDestroy scene [[0m[1;36mscene[0m[1;36m][0m[1;36m[0m
+[ERROR] [move_group-8]: process has died [pid 186563, exit code -11, cmd '/opt/ros/jazzy/lib/moveit_ros_move_group/move_group --ros-args --log-level info --ros-args --params-file /tmp/launch_params_u1c5jhec --params-file /tmp/launch_params_pcsgh2lf --params-file /tmp/launch_params_6gkgaqev'].
+[DEBUG] [launch.launch_context]: emitting event: 'launch.events.process.ProcessExited'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_exited.ProcessExited object at 0x793899ee5430>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_exited.ProcessExited object at 0x793899ee5430>' ✓ '<launch.event_handlers.on_process_exit.OnProcessExit object at 0x793898e5f7a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_exited.ProcessExited object at 0x793899ee5430>' ✓ '<launch.event_handlers.on_process_exit.OnProcessExit object at 0x793898e5f800>'
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStdout'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stdout.ProcessStdout object at 0x7938990374a0>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stdout.ProcessStdout object at 0x7938990374a0>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] m[Msg] [0m[1;32mLoading plugin [[0m[1;32mgz-rendering-ogre2[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mServing scene information on [[0m[1;32m/world/empty[0m[1;32m/[0m[1;32mscene/info[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mServing graph information on [[0m[1;32m/world/empty[0m[1;32m/[0m[1;32mscene/graph[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mServing full state on [[0m[1;32m/world/empty[0m[1;32m/[0m[1;32mstate[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mServing full state (async) on [[0m[1;32m/world/empty[0m[1;32m/[0m[1;32mstate_async[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mPublishing scene information on [[0m[1;32m/world/empty/scene/info[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mPublishing entity deletions on [[0m[1;32m/world/empty/scene/deletion[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mPublishing state changes on [[0m[1;32m/world/empty/state[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mPublishing pose messages on [[0m[1;32m/world/empty[0m[1;32m/[0m[1;32mpose/info[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;32m[Msg] [0m[1;32mPublishing dynamic pose messages on [[0m[1;32m/world/empty[0m[1;32m/[0m[1;32mdynamic_pose/info[0m[1;32m][0m[1;32m[0m
+[gazebo-2] [1;36m[Dbg] [RenderUtil.cc:2646] [0m[1;36mCreate scene [[0m[1;36mscene[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [Sensors.cc:391] [0m[1;36mRendering Thread initialized[0m[1;36mRendering Thread initialized[0m[1;36mInitialization needed[0m[1;36m[0m
+[gazebo-2] [1;36m[0m
+[gazebo-2] [1;36m[Dbg] [CameraSensor.cc:405] [0m[1;36mCamera images for [[0m[1;36mcamera::link::camera[0m[1;36m] advertised on [[0m[1;36mcamera[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [CameraSensor.cc:695] [0m[1;36mCamera info for [[0m[1;36mcamera::link::camera[0m[1;36m] advertised on [[0m[1;36m/camera_info[0m[1;36m][0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [CameraSensor.cc:504] [0m[1;36mEnabling camera sensor: '[0m[1;36mcamera::link::camera[0m[1;36m' data [0m[1;36mgeneration.[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SignalHandler.cc:142] [0m[1;36mReceived signal[[0m[1;36m2[0m[1;36m].[0m
+[gazebo-2] [1;36m[Dbg] [ServerPrivate.cc:122] [0m[1;36mServer received signal[[0m[1;36m2[0m[1;36m][0m
+[gazebo-2] [1;36m[Dbg] [Sensors.cc:565] [0m[1;36mSensorsPrivate::Stop[0m[1;36m[0m
+[DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.process.ProcessStdout'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stdout.ProcessStdout object at 0x79389a179c70>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_stdout.ProcessStdout object at 0x79389a179c70>' ✓ '<launch.event_handlers.on_process_io.OnProcessIO object at 0x793898f87470>'
+[gazebo-2] [1;36m[Dbg] [Sensors.cc:551] [0m[1;36mSensorsPrivate::RenderThread stopped[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [gz.cc:434] [0m[1;36mShutting down gz-sim-server[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SimulationRunner.cc:560] [0m[1;36mExiting postupdate worker thread ([0m[1;36m[Dbg] [SimulationRunner.cc:560] 2[0m[1;36m)[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SimulationRunner.cc:560] 2[0m[1;36mExiting postupdate worker thread ([0m[1;36m0[0m[1;36m)[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [SimulationRunner.cc:560] [0m[1;36mExiting postupdate worker thread ([0m[1;36m1[0m[1;36m)[0m[1;36m[0m
+[gazebo-2] [1;36m[Dbg] [Sensors.cc:565] [0m[1;36mSensorsPrivate::Stop[0m[1;36m[0m
+[ERROR] [gazebo-2]: process has died [pid 186556, exit code -2, cmd 'ruby /opt/ros/jazzy/opt/gz_tools_vendor/bin/gz sim /home/mk/ws_aic/Meta_Quest/ws_working_one/ur5_ws/install/ur5_description/share/ur5_description/worlds/gazebo_world.sdf -v 4 -r --physics-engine gz-physics-bullet-featherstone-plugin --force-version 8'].
+[DEBUG] [launch.launch_context]: emitting event: 'launch.events.process.ProcessExited'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_exited.ProcessExited object at 0x79389939e870>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_exited.ProcessExited object at 0x79389939e870>' ✓ '<launch.event_handlers.on_process_exit.OnProcessExit object at 0x793898f85670>'
+[DEBUG] [launch]: processing event: '<launch.events.process.process_exited.ProcessExited object at 0x79389939e870>' ✓ '<launch.event_handlers.on_process_exit.OnProcessExit object at 0x793898f87170>'
