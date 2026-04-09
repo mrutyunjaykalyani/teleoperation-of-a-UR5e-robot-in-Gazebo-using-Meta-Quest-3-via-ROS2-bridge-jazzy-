@@ -1,65 +1,54 @@
-servo_node:
-  ros__parameters:
-    moveit_servo:
-      # --- GENERAL CONFIG ---
-      thread_priority: 40
-      publish_period: 0.004      # 250Hz for smooth UR5 movement
-      max_expected_latency: 0.1
-      move_group_name: "ur5_arm" # Must match your SRDF
-      is_primary_planning_scene_monitor: true
+moveit_servo:
+  # --- GENERAL ---
+  thread_priority: 40
+  publish_period: 0.02
+  max_expected_latency: 0.1
+  move_group_name: "ur5_arm"
+  is_primary_planning_scene_monitor: false
 
-      # --- INCOMING COMMAND SETTINGS ---
-      # This matches your Quest 3 script publisher
-      pose_command_in_topic: "~/pose_target_cmds"
-      cartesian_command_in_topic: "~/delta_twist_cmds"
-      joint_command_in_topic: "~/delta_joint_cmds"
-      
-      # "unitless" is used for the Pose tracking from Quest
-      command_in_type: "unitless" 
-      
-      scale:
-        linear: 0.6      # Max speed m/s
-        rotational: 0.3  # Max speed rad/s
-        joint: 0.1
+  # --- INCOMING COMMANDS ---
+  pose_command_in_topic: "~/pose_target_cmds"
+  cartesian_command_in_topic: "~/delta_twist_cmds"
+  joint_command_in_topic: "~/delta_joint_cmds"
+  command_in_type: "speed_units"
+  incoming_command_timeout: 0.5
 
-      incoming_command_timeout: 0.5
+  scale:
+    linear: 0.6
+    rotational: 0.3
+    joint: 0.1
 
-      # --- POSE TRACKING SETTINGS ---
-      pose_tracking:
-        linear_tolerance: 0.001
-        angular_tolerance: 0.01
+  pose_tracking:
+    linear_tolerance: 0.001
+    angular_tolerance: 0.01
 
-      # --- OUTGOING COMMAND SETTINGS ---
-      status_topic: "~/status"
-      
-      # IMPORTANT: Match your actual controller topic
-      command_out_topic: "/ur5_arm_controller/joint_trajectory"
-      command_out_type: "trajectory_msgs/JointTrajectory"
+  # --- OUTGOING COMMANDS ---
+  status_topic: "~/status"
+  command_out_topic: "/ur5_arm_controller/joint_trajectory"
+  command_out_type: "trajectory_msgs/JointTrajectory"
+  publish_joint_positions: true
+  publish_joint_velocities: true
+  publish_joint_accelerations: false
 
-      publish_joint_positions: true
-      publish_joint_velocities: true
-      publish_joint_accelerations: false
+  # --- PLANNING SCENE ---
+  joint_topic: "/joint_states"
+  monitored_planning_scene_topic: "/monitored_planning_scene"
+  publish_planning_scene: false
+  check_octomap_collisions: false
 
-      # --- PLANNING SCENE MONITOR ---
-      joint_topic: "/joint_states"
-      is_primary_joint_topic: true
-      monitored_planning_scene_topic: "/planning_scene"
-      publish_planning_scene: true
-      check_octomap_collisions: false
+  # --- SMOOTHING ---
+  use_smoothing: false
+  smoothing_filter_plugin_name: "online_signal_smoothing::ButterworthFilterPlugin"
 
-      # --- SMOOTHING ---
-      use_smoothing: false
-      smoothing_filter_plugin_name: "online_signal_smoothing::ButterworthFilterPlugin"
+  # --- COLLISION ---
+  check_collisions: true
+  collision_check_rate: 10.0
+  self_collision_proximity_threshold: 0.01
+  scene_collision_proximity_threshold: 0.02
 
-      # --- COLLISION MONITOR ---
-      check_collisions: true
-      collision_check_rate: 10.0
-      self_collision_proximity_threshold: 0.01
-      scene_collision_proximity_threshold: 0.02
+  # --- SINGULARITY ---
+  lower_singularity_threshold: 17.0
+  hard_stop_singularity_threshold: 30.0
 
-      # --- SINGULARITY CHECKING ---
-      lower_singularity_threshold: 17.0
-      hard_stop_singularity_threshold: 30.0
-
-      # --- JOINT LIMITING ---
-      joint_limit_margins: [0.1] # Radians buffer from limits
+  # --- JOINT LIMITS ---
+  joint_limit_margins: [0.1, 0.1, 0.1, 0.1, 0.1, 0.1]

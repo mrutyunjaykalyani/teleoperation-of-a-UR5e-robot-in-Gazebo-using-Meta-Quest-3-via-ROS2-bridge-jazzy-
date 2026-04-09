@@ -8,9 +8,8 @@ from ament_index_python.packages import get_package_share_directory
 
 
 def generate_launch_description():
-
     is_sim = LaunchConfiguration("is_sim")
-    
+
     is_sim_arg = DeclareLaunchArgument(
         "is_sim",
         default_value="True"
@@ -27,7 +26,7 @@ def generate_launch_description():
         .robot_description_semantic(file_path="config/ur5_robot.srdf")
         .trajectory_execution(file_path="config/moveit_controllers.yaml")
         .moveit_cpp(file_path="config/controller_setting.yaml")
-        .robot_description_kinematics(file_path = "config/kinematics.yaml")
+        .robot_description_kinematics(file_path="config/kinematics.yaml")
         .to_moveit_configs()
     )
 
@@ -35,38 +34,20 @@ def generate_launch_description():
         package="moveit_ros_move_group",
         executable="move_group",
         output="screen",
-        parameters=[moveit_config.to_dict(), 
-                    {"use_sim_time": is_sim},
-                    {"publish_robot_description_semantic": True}
-                    ],
+        parameters=[
+            moveit_config.to_dict(),
+            {"use_sim_time": is_sim},
+            {"publish_robot_description_semantic": True},
+        ],
         arguments=["--ros-args", "--log-level", "info"],
     )
-    
-    # Path to the servo config we are creating
-    servo_yaml = os.path.join(
-        get_package_share_directory("ur5_moveit"),
-        "config",
-        "ur_servo.yaml",
-    )
 
-    servo_node = Node(
-        package="moveit_servo",
-        executable="servo_node",
-        name="servo_node",
-        output="screen",
-        parameters=[
-            moveit_config.to_dict(), # Gives Servo the robot URDF/SRDF
-            servo_yaml,              # Gives Servo your Quest topic settings
-            {"use_sim_time": is_sim},
-        ],
-    )
-
-    # RViz
     rviz_config = os.path.join(
         get_package_share_directory("ur5_moveit"),
-            "config",
-            "moveit.rviz",
+        "config",
+        "moveit.rviz",
     )
+
     rviz_node = Node(
         package="rviz2",
         executable="rviz2",
@@ -81,12 +62,9 @@ def generate_launch_description():
         ],
     )
 
-    return LaunchDescription(
-        [
-            is_sim_arg,
-            move_group_node, 
-            rviz_node,
-            servo_node
-        ]
-    )
-
+    # ✅ servo_node REMOVED — launched separately via ur5_servo.launch.py
+    return LaunchDescription([
+        is_sim_arg,
+        move_group_node,
+        rviz_node,
+    ])
